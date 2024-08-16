@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Home Page</title>
+    <link rel="stylesheet" href="day24.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome, <span id="username">Sitwat</span></h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Transactions</a>
+                <a href="#">Settings</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="account-info">
+                <h2>Account Balance</h2>
+                <div class="balance">
+                    <span>pkr</span><span id="balance">111,234.56</span>
+                </div>
+            </section>
+
+            <section class="recent-transactions">
+                <h2>Recent Transactions</h2>
+                <ul>
+                    <li>Deposit: 12500.00 <span class="date">2024-08-01</span></li>
+                    <li>Withdrawal: 18100.00 <span class="date">2024-08-05</span></li>
+                    <li>Deposit: 2200.00 <span class="date">2024-08-10</span></li>
+                </ul>
+            </section>
+
+            <section class="deposit-info">
+                <h2>Deposit Information</h2>
+                <form>
+                    <label for="deposit-amount">Deposit Amount:</label>
+                    <input type="number" id="deposit-amount" name="deposit-amount" placeholder="Enter amount" required>
+                    <button type="submit">Deposit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Bank Inc. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

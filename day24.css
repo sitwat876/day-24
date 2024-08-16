@@ -1,0 +1,129 @@
+/* day24.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Light background color */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #007bff; /* Blue background for the header */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header #username {
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.account-info, .recent-transactions, .deposit-info {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.account-info h2, .recent-transactions h2, .deposit-info h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745; /* Green color for the balance */
+}
+
+.balance span {
+    display: inline-block;
+}
+
+.recent-transactions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-transactions li {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+    color: #333;
+}
+
+.recent-transactions .date {
+    float: right;
+    color: #888;
+}
+
+.deposit-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.deposit-info label {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.deposit-info input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.deposit-info button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    background: #007bff; /* Blue background for the button */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deposit-info button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    background: #007bff; /* Blue background for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
